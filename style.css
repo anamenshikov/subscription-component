@@ -1,0 +1,133 @@
+body {
+    background-color: #E6EFF6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    color: hsl(218, 22%, 67%)
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    height: 100vh;
+    place-items: center center;
+}
+
+.subscription {
+    background: #ffffff;
+    width: 635px;
+    min-height: 50px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.subscription__row {
+    padding: 40px;
+}
+
+.subscription__title {
+    color: #3A9996;
+    font-size: 23px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.subscription__subtitle {
+    color: #A7C32C;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
+
+.subscription__desc {
+    margin-bottom: 0;
+}
+
+.subscription__footer {
+    display: flex;
+    flex-direction: row;
+    min-height: 20px;
+    color: #ffffff;
+}
+
+.block {
+    padding: 40px;
+    width: 50%;
+}
+
+.block--left {
+    background: #2BB3B1;
+}
+
+.block--right {
+    background: #4ABEBD;
+}
+
+.block__title {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.block p {
+    color: #ffffff;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 200px;
+    margin: 0;
+}
+
+.subscription-price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.subscription-price__amount {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.subscription-price__plan {
+    opacity: 0.6;
+}
+
+.btn {
+    text-align: center;
+    background: #BCDC31;
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    color: #ffffff;
+    outline: none;
+    transition: box-shadow 0.5s;
+    cursor: pointer;
+    display: block;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn--signup {
+    width: 100%;
+}
